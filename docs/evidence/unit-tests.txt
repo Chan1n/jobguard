@@ -1,0 +1,23 @@
+
+> jobguard@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ URL parser: host case / fragment; preserve scheme, query order, path case (1.631ms)
+✔ real URL snapshot matches without opening destination; same domain alone does not match (0.147ms)
+✔ text input extracts max 5, deduplicates, rejects blank malformed and unsupported URLs (0.320084ms)
+✔ browser SHA-256 matches independent node crypto for self-created harmless fixture (7.377959ms)
+✔ ESET real hash matcher only (no malware file downloaded or executed) (0.243459ms)
+✔ basic file signatures and ZIP limitation (0.2865ms)
+✔ PE header bounds checked; MZ alone does not identify PE (0.101958ms)
+✔ synthetic non-runnable PE disguised as PDF yields caution, not malware claim (1.305292ms)
+✔ empty / oversized rejected; short unsupported file still hashed (0.356625ms)
+✔ history survives serialization and caps at 100 without URL/file/chat content (1.494875ms)
+✔ storage failures propagate to UI handler and corrupt history rejected (0.144ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.71225

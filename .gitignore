@@ -1,0 +1,25 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+.aws/
+.ssh/
+credentials*.json
+
+# Local exports, reference documents and temporary work
+/tmp/
+/output/
+*.zip
+*.log
